@@ -1,0 +1,145 @@
+[{
+		"instruct": "What processor is integrated into the AIR-100 system?",
+		"output": "The AIR-100 system is integrated with an Intel Atom Processor E3950."
+	},
+	{
+		"instruct": "What graphics engine is used for HDMI-1 and HDMI-2 outputs in the AIR-100?",
+		"output": "The graphics engine used for HDMI-1 and HDMI-2 outputs in the AIR-100 is the NVIDIA GeForce GT 1030."
+	},
+	{
+		"instruct": "How many HDMI outputs does the AIR-100 support, and what are their versions?",
+		"output": "The AIR-100 supports 4 HDMI outputs, with 2 HDMI 1.4 outputs and 2 HDMI 2.0 outputs."
+	},
+	{
+		"instruct": "What toolkit is supported by the AIR-100 for AI inference?",
+		"output": "The AIR-100 supports the Intel OpenVINO toolkit for AI inference."
+	},
+	{
+		"instruct": "What is the maximum memory capacity of the AIR-100, and how much is pre-installed?",
+		"output": "The maximum memory capacity of the AIR-100 is 16 GB, with 4 GB pre-installed."
+	},
+	{
+		"instruct": "Describe the video decoding and encoding capabilities of the AIR-100.",
+		"output": "The AIR-100 can decode video formats including H.264, VC-1, WMV9, H.265/HEVC, VP8, VP9, JPEG/MJPEG, and MPEG2 (only for Yocto project Linux). It can encode H.264, MVC, WMV9, H.265/HEVC, VP8, VP9, and JPEG/MJPEG."
+	},
+	{
+		"instruct": "What storage options are available in the AIR-100, and what is pre-installed?",
+		"output": "The AIR-100 includes a 2.5-inch SATA III HDD/SSD storage option, with a 64GB SSD pre-installed."
+	},
+	{
+		"instruct": "What types of LAN and USB interfaces are available on the AIR-100?",
+		"output": "The AIR-100 has 1 Gigabit LAN interface (RJ-45), 2 USB 2.0 ports, and 2 USB 3.0 ports."
+	},
+	{
+		"instruct": "Explain the power requirements and power input options for the AIR-100.",
+		"output": "The AIR-100 requires a 19 V DC input voltage and supports both ATX and AT modes (default ATX)."
+	},
+	{
+		"instruct": "What environmental conditions can the AIR-100 operate under?",
+		"output": "The AIR-100 can operate in temperatures ranging from 0 to 50°C with 0.7m/s air flow and relative humidity of 95% at 40°C (non-condensing)."
+	},
+	{
+		"instruct": "What operating systems are pre-installed and supported on the AIR-100?",
+		"output": "The AIR-100 comes pre-installed with Microsoft Windows 10, and it also supports Linux by project."
+	},
+	{
+		"instruct": "What security feature is reserved for the AIR-100 for security applications?",
+		"output": "The AIR-100 reserves TPM 2.0 for security applications."
+	},
+	{
+		"instruct": "What are the physical dimensions and weight of the AIR-100?",
+		"output": "The physical dimensions of the AIR-100 are 220 x 40 x 150 mm, and it weighs 1.7 kg."
+	},
+	{
+		"instruct": "What additional software is integrated with the AIR-100 for content management?",
+		"output": "The AIR-100 is integrated with signage content management software."
+	},
+	{
+		"instruct": "What are the mounting options available for the AIR-100?",
+		"output": "The AIR-100 comes with wall mount kits suitable for LCD or plasma panels."
+	},
+	{
+		"instruct": "What AI engine is built into the AIR-100, and what are its specifications?",
+		"output": "The AIR-100 includes one Intel Movidius Myriad X MA2485 VPU (VEGA-320-01A1 built-in)."
+	},
+	{
+		"instruct": "Describe the support for multi-display setups in the AIR-100.",
+		"output": "The AIR-100 supports up to 4 simultaneous display outputs."
+	},
+	{
+		"instruct": "What are the primary applications of the Edge AI Suite integrated with the AIR-100?",
+		"output": "The primary applications of the Edge AI Suite integrated with the AIR-100 include enhancing AI inference efficiency and scaling AI inference workloads with a modular, plug-and-play design."
+	},
+	{
+		"instruct": "What certifications has the AIR-100 obtained?",
+		"output": "The AIR-100 has obtained EMC certifications including CE, FCC Class B, and BSMI, and safety certifications including UL, CCC, BSMI, and CB."
+	},
+	{
+		"instruct": "What are the packaging contents included with the AIR-100 unit?",
+		"output": "The packaging contents of the AIR-100 include the AIR-100 unit, power adapter (DC 19V/3.42A 65W), bracket set for fixing power adapter plug, 2 mounting brackets, 2 user manuals, and content management software."
+	},
+	{
+		"instruct": "What are the key features of the AIR-100 Edge AI Inference System?",
+		"output": "The key features of the AIR-100 Edge AI Inference System include: Intel Atom E3950 processor, Intel Movidius Myriad X MA2485 VPU x1 built-in, integrated Nvidia GeForce GT1030 graphics for ultra HD playback, Intel OpenVINO toolkit supported, 1 x 204-pin SO-DIMM DDR3L 4GB memory (-20~85°C) built-in, 1 x 64GB SSD built-in, 4 x independent HDMI outputs, reserve TPM 2.0 for security application, signage content management software built-in, and integrated with Edge AI Suite."
+	},
+	{
+		"instruct": "Which processors are integrated into the AIR-100 system?",
+		"output": "The AIR-100 system is integrated with an Intel Atom E3950 processor and an Intel Movidius Myriad X MA2485 VPU."
+	},
+	{
+		"instruct": "What AI inference capabilities does the AIR-100 support?",
+		"output": "The AIR-100 supports AI inference capabilities through the Intel Movidius Myriad X MA2485 VPU and is enhanced by the Intel OpenVINO toolkit which supports TensorFlow, Caffe, mxnet, and ONNX frameworks."
+	},
+	{
+		"instruct": "What type of CPU is used in the AIR-100?",
+		"output": "The AIR-100 uses an Intel Atom Processor E3950."
+	},
+	{
+		"instruct": "How much memory does the AIR-100 support and what is the pre-installed capacity?",
+		"output": "The AIR-100 supports up to 16 GB of DDR3L memory with 4 GB pre-installed."
+	},
+	{
+		"instruct": "What are the graphics capabilities of the AIR-100, including supported resolutions?",
+		"output": "The graphics capabilities of the AIR-100 include HDMI-1 and HDMI-2 powered by NVIDIA GeForce GT 1030, and HDMI-3 and HDMI-4 powered by Intel HD Graphics 505. It supports resolutions up to 3840 x 2160 @ 60Hz for HDMI 2.0 and up to 3840 x 2160 @ 30Hz for HDMI 1.4."
+	},
+	{
+		"instruct": "What storage options are available in the AIR-100?",
+		"output": "The AIR-100 comes with a pre-installed 64GB SSD and supports 1 x 2.5-inch SATA III HDD/SSD."
+	},
+	{
+		"instruct": "What types of HDMI outputs are available on the AIR-100 and how many?",
+		"output": "The AIR-100 has 4 independent HDMI outputs: 2 x HDMI 1.4 and 2 x HDMI 2.0."
+	},
+	{
+		"instruct": "What USB interfaces are supported by the AIR-100?",
+		"output": "The AIR-100 supports 2 x USB 2.0 and 2 x USB 3.0 interfaces."
+	},
+	{
+		"instruct": "Does the AIR-100 support Ethernet connectivity, and if so, what type?",
+		"output": "Yes, the AIR-100 supports Ethernet connectivity with a Gigabit LAN controller (1 x Intel I211-AT)."
+	},
+	{
+		"instruct": "What AI engine is integrated into the AIR-100?",
+		"output": "The AIR-100 integrates the Intel Movidius Myriad X MA2485 VPU as its AI engine."
+	},
+	{
+		"instruct": "Which AI frameworks are supported by the Intel OpenVINO toolkit in the AIR-100?",
+		"output": "The Intel OpenVINO toolkit in the AIR-100 supports TensorFlow, Caffe, mxnet, and ONNX AI frameworks."
+	},
+	{
+		"instruct": "What software support is provided with the AIR-020X?",
+		"output": "The AIR-020X supports Edge AI Suite/FaceView compatible software API."
+	},
+	{
+		"instruct": "What are the dimensions and weight of the AIR-020X?",
+		"output": "The AIR-020X has dimensions of 138 x 110 x 43.6 mm and weighs 0.85 kg."
+	},
+	{
+		"instruct": "What are the key features of the WISE-DeviceOn solution for Edge AI?",
+		"output": "The WISE-DeviceOn solution includes inference optimization, container and OTA management, fleet management, and AI security."
+	},
+	{
+		"instruct": "How does the AIR-020X handle software updates?",
+		"output": "The AIR-020X supports software OTA (over-the-air) updates."
+	}
+]
