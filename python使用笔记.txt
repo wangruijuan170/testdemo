@@ -1,0 +1,79 @@
+1、sys
+sys.argv：argument value的缩写，是一个列表对象，其中存储的是在命令行调用 Python 脚本时提供的“命令行参数”。
+ 例如：$ python sys_argv_example.py arg1 arg2 arg3
+ The list of command line arguments:
+  ['example.py', 'arg1', 'arg2', 'arg3']
+ 
+sys.executable：其值是当前运行的 Python 解释器对应的可执行程序所在的绝对路径。 
+>>> sys.executable
+ 'E:\\Anaconda\\Anaconda\\python.exe'
+ sys.modules：包含的是各种已加载的模块的模块名到模块具体位置的映射
+sys.path：该属性是一个由字符串组成的列表，其中各个元素表示的是 Python 搜索模块的路径；在程序启动期间被初始化。
+			其中第一个元素（也就是path[0]）的值是最初调用 Python 解释器的脚本所在的绝对路径;
+sys.stdin:Python 的标准输入通道,实际上就是通过键盘输入的字符。
+			input()使用的就是标准输入流
+sys.stdout:“标准输出”,通过将这个属性的值修改为某个文件对象，可以将本来要打印到屏幕上的内容写入文件。	
+		import sys
+		# 以附加模式打开文件，若不存在则新建
+		with open("count_log.txt", 'a', encoding='utf-8') as f:
+			sys.stdout = f
+			for i in range(10):
+				print("count = ", i)
+sys.err:标准错误，通常也是定向到屏幕的，可以粗糙地认为是一个输出错误信息的特殊的标准输出流
+sys模块中还存在几个“私有”属性：sys.__stdin__，sys.__stdout__，sys.__stderr__。这几个属性中保存的就是最初定向的“标准输入”、“标准输出”和“标准错误”流。在适当的时侯，我们可以借助这三个属性将sys.stdin、sys.stdout和sys.err恢复为初始值。
+2、dir() 函数
+内置函数 dir() 用于按模块名搜索模块定义，它返回一个字符串类型的存储列表，该列表列出了所有类型的名称：变量，模块，函数，等等；不会列出内置函数和变量名。如果你想列出这些内容，它们在标准模块 builtins 中定义:
+
+3、导入包中的部分内容：
+例如， sound/effects/__init__.py 这个文件可能包括如下代码:
+__all__ = ["echo", "surround", "reverse"]
+这意味着 from sound.effects import * 语句会从 sound 包中导入以上三个已命名的子模块。
+
+4、分隔符：
+	Windows系统通过是“\\”，Linux类系统如Ubuntu的分隔符是“/”，而苹果Mac OS系统中是“:”
+5、os 、operating system
+os.name win10上返回nt、linux返回posix
+os.enversion 返回各类环境变量相关的信息，
+比如其中键为“HOMEPATH”（Windows 下，Linux 下为“HOME”）的项，对应的值就是用户主目录的路径。Windows 下，其值为：
+ >>> os.environ["HOMEPATH"]
+ 'd:\\justdopython'
+Linux 下，其值为：
+
+ >>> os.environ["HOME"]
+ '/home/justdopython'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
