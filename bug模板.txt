@@ -1,0 +1,8 @@
+每个thread会保存多少记录？
+5
+最多支持多少个thread？
+45
+thread否支持重名？
+支持
+send message： 聊天、生成图片？表格？
+
